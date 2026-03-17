@@ -1,7 +1,7 @@
 # This is just an example to get you started. A typical hybrid package
 # uses this file as the main entry point of the application.
 
-import matrix_calc/submodule
+import lib
 
 when isMainModule:
-  echo(getWelcomeMessage())
+  echo "hello"
