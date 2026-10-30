@@ -1,0 +1,2009 @@
+{
+  "source": "callgrind.out",
+  "measurement": "Callgrind instruction events; not wall-clock CPU samples",
+  "events": {
+    "Ir": 195278646,
+    "Dr": 65976851,
+    "Dw": 26041488,
+    "I1mr": 2172,
+    "D1mr": 2122535,
+    "D1mw": 31996,
+    "ILmr": 1986,
+    "DLmr": 1051,
+    "DLmw": 9254
+  },
+  "self_cost_sum": 195278644,
+  "summary_instructions": 195278646,
+  "functions": [
+    {
+      "function": "core::X5BX5D_(Matrix<float>, int, int)",
+      "self_instructions": 151584768,
+      "fraction": 0.7762485691983809
+    },
+    {
+      "function": "roadmap::naive(Matrix<float>, Matrix<float>)",
+      "self_instructions": 40142135,
+      "fraction": 0.20556336411266765
+    },
+    {
+      "function": "core::fromFn(int, int, proc<float, int, int>)",
+      "self_instructions": 723038,
+      "fraction": 0.003702596378127247
+    },
+    {
+      "function": "core::X5BX5Deq_(var<Matrix<float> >, int, int, float)",
+      "self_instructions": 589824,
+      "fraction": 0.0030204224482427273
+    },
+    {
+      "function": "roadmap::checksum(Matrix<float>)",
+      "self_instructions": 525595,
+      "fraction": 0.002691512954176392
+    },
+    {
+      "function": "0x0000000000163280",
+      "self_instructions": 471545,
+      "fraction": 0.0024147289756887087
+    },
+    {
+      "function": "inputs::colonanonymous_(int, int)",
+      "self_instructions": 393216,
+      "fraction": 0.0020136149654951517
+    },
+    {
+      "function": "inputs::colonanonymous__roadmap_u71_(int, int)",
+      "self_instructions": 376832,
+      "fraction": 0.0019297143419328537
+    },
+    {
+      "function": "core::filled(int, int, float)",
+      "self_instructions": 230722,
+      "fraction": 0.0011815014446741037
+    },
+    {
+      "function": "core::cols(Matrix<float>)",
+      "self_instructions": 33284,
+      "fraction": 0.00017044362516159217
+    },
+    {
+      "function": "0x000000000000a220",
+      "self_instructions": 31035,
+      "fraction": 0.00015892674879491688
+    },
+    {
+      "function": "0x000000000000e870",
+      "self_instructions": 27608,
+      "fraction": 0.00014137746675463395
+    },
+    {
+      "function": "0x0000000000013780",
+      "self_instructions": 27332,
+      "fraction": 0.0001399641017581011
+    },
+    {
+      "function": "0x000000000000ae90",
+      "self_instructions": 23257,
+      "fraction": 0.00011909648450856715
+    },
+    {
+      "function": "0x0000000000024740",
+      "self_instructions": 10009,
+      "fraction": 5.125496467499027e-05
+    },
+    {
+      "function": "0x0000000000023da0",
+      "self_instructions": 7837,
+      "fraction": 4.0132396658796956e-05
+    },
+    {
+      "function": "0x000000000000a0a0",
+      "self_instructions": 7019,
+      "fraction": 3.5943510545884376e-05
+    },
+    {
+      "function": "0x0000000000015f00",
+      "self_instructions": 5366,
+      "fraction": 2.7478683229693053e-05
+    },
+    {
+      "function": "0x0000000000013e00",
+      "self_instructions": 4390,
+      "fraction": 2.24806968651421e-05
+    },
+    {
+      "function": "0x00000000000110d0",
+      "self_instructions": 2562,
+      "fraction": 1.3119714206946255e-05
+    },
+    {
+      "function": "0x0000000000007cb0",
+      "self_instructions": 2478,
+      "fraction": 1.2689559642784082e-05
+    },
+    {
+      "function": "0x000000000001e600",
+      "self_instructions": 1728,
+      "fraction": 8.848893891336116e-06
+    },
+    {
+      "function": "0x00000000000a0fe0",
+      "self_instructions": 1648,
+      "fraction": 8.439222877848332e-06
+    },
+    {
+      "function": "getenv",
+      "self_instructions": 1555,
+      "fraction": 7.962980324668784e-06
+    },
+    {
+      "function": "0x0000000000062580",
+      "self_instructions": 1456,
+      "fraction": 7.456012445477653e-06
+    },
+    {
+      "function": "pthread_create",
+      "self_instructions": 1429,
+      "fraction": 7.317748478425526e-06
+    },
+    {
+      "function": "0x000000000005a450",
+      "self_instructions": 1152,
+      "fraction": 5.899262594224077e-06
+    },
+    {
+      "function": "system::getBigChunk(var<system::MemRegion>, int)",
+      "self_instructions": 1055,
+      "fraction": 5.40253649037014e-06
+    },
+    {
+      "function": "0x000000000005a300",
+      "self_instructions": 1054,
+      "fraction": 5.397415602701543e-06
+    },
+    {
+      "function": "0x000000000001b390",
+      "self_instructions": 1033,
+      "fraction": 5.289876961661e-06
+    },
+    {
+      "function": "0x00000000000133c0",
+      "self_instructions": 1000,
+      "fraction": 5.120887668597289e-06
+    },
+    {
+      "function": "0x0000000000003680",
+      "self_instructions": 997,
+      "fraction": 5.105525005591497e-06
+    },
+    {
+      "function": "calloc",
+      "self_instructions": 973,
+      "fraction": 4.982623701545162e-06
+    },
+    {
+      "function": "_dl_allocate_tls_init",
+      "self_instructions": 944,
+      "fraction": 4.834117959155841e-06
+    },
+    {
+      "function": "0x000000000009eea0",
+      "self_instructions": 858,
+      "fraction": 4.393721619656474e-06
+    },
+    {
+      "function": "pthread_mutex_init",
+      "self_instructions": 850,
+      "fraction": 4.352754518307695e-06
+    },
+    {
+      "function": "system::rawAlloc(var<system::MemRegion>, int)",
+      "self_instructions": 823,
+      "fraction": 4.214490551255569e-06
+    },
+    {
+      "function": "0x00000000000147c0",
+      "self_instructions": 816,
+      "fraction": 4.178644337575388e-06
+    },
+    {
+      "function": "__tunable_get_val",
+      "self_instructions": 815,
+      "fraction": 4.173523449906791e-06
+    },
+    {
+      "function": "pthread_mutex_lock",
+      "self_instructions": 731,
+      "fraction": 3.7433688857446183e-06
+    },
+    {
+      "function": "nsuformatBiggestFloat",
+      "self_instructions": 718,
+      "fraction": 3.6767973460528536e-06
+    },
+    {
+      "function": "0x000000000001de30",
+      "self_instructions": 705,
+      "fraction": 3.610225806361089e-06
+    },
+    {
+      "function": "0x0000000000053470",
+      "self_instructions": 702,
+      "fraction": 3.5948631433552968e-06
+    },
+    {
+      "function": "0x000000000000c2a0",
+      "self_instructions": 659,
+      "fraction": 3.3746649736056137e-06
+    },
+    {
+      "function": "0x00000000000076e0",
+      "self_instructions": 651,
+      "fraction": 3.333697872256835e-06
+    },
+    {
+      "function": "0x000000000005a230",
+      "self_instructions": 597,
+      "fraction": 3.0571699381525817e-06
+    },
+    {
+      "function": "0x000000000001be40",
+      "self_instructions": 567,
+      "fraction": 2.903543308094663e-06
+    },
+    {
+      "function": "0x0000000000025d60",
+      "self_instructions": 562,
+      "fraction": 2.8779388697516764e-06
+    },
+    {
+      "function": "0x000000000001a800",
+      "self_instructions": 543,
+      "fraction": 2.780642004048328e-06
+    },
+    {
+      "function": "pthread_mutex_unlock",
+      "self_instructions": 528,
+      "fraction": 2.7038286890193687e-06
+    },
+    {
+      "function": "roadmap::main",
+      "self_instructions": 516,
+      "fraction": 2.6423780369962012e-06
+    },
+    {
+      "function": "0x0000000000016170",
+      "self_instructions": 504,
+      "fraction": 2.5809273849730337e-06
+    },
+    {
+      "function": "0x0000000000024520",
+      "self_instructions": 501,
+      "fraction": 2.565564721967242e-06
+    },
+    {
+      "function": "0x0000000000025b80",
+      "self_instructions": 491,
+      "fraction": 2.514355845281269e-06
+    },
+    {
+      "function": "__libc_sigaction",
+      "self_instructions": 480,
+      "fraction": 2.4580260809266987e-06
+    },
+    {
+      "function": "0x00000000000093a0",
+      "self_instructions": 480,
+      "fraction": 2.4580260809266987e-06
+    },
+    {
+      "function": "0x0000000000023bb0",
+      "self_instructions": 464,
+      "fraction": 2.3760918782291423e-06
+    },
+    {
+      "function": "0x000000000000bc70",
+      "self_instructions": 456,
+      "fraction": 2.3351247768803637e-06
+    },
+    {
+      "function": "0x0000000000054000",
+      "self_instructions": 452,
+      "fraction": 2.3146412262059748e-06
+    },
+    {
+      "function": "0x0000000000006660",
+      "self_instructions": 452,
+      "fraction": 2.3146412262059748e-06
+    },
+    {
+      "function": "0x0000000000017e70",
+      "self_instructions": 441,
+      "fraction": 2.2583114618514045e-06
+    },
+    {
+      "function": "system::splitChunk2(var<system::MemRegion>, ptr<system::BigChunk>, int)",
+      "self_instructions": 424,
+      "fraction": 2.1712563714852505e-06
+    },
+    {
+      "function": "0x0000000000058880",
+      "self_instructions": 420,
+      "fraction": 2.1507728208108616e-06
+    },
+    {
+      "function": "system::addChunkToMatrix(var<system::MemRegion>, ptr<system::BigChunk>)",
+      "self_instructions": 420,
+      "fraction": 2.1507728208108616e-06
+    },
+    {
+      "function": "0x00000000001666a0",
+      "self_instructions": 411,
+      "fraction": 2.1046848317934857e-06
+    },
+    {
+      "function": "0x000000000001ade0",
+      "self_instructions": 405,
+      "fraction": 2.073959505781902e-06
+    },
+    {
+      "function": "fwrite",
+      "self_instructions": 401,
+      "fraction": 2.053475955107513e-06
+    },
+    {
+      "function": "0x000000000000bf50",
+      "self_instructions": 401,
+      "fraction": 2.053475955107513e-06
+    },
+    {
+      "function": "deallocShared",
+      "self_instructions": 390,
+      "fraction": 1.997146190752943e-06
+    },
+    {
+      "function": "0x00000000000062f0",
+      "self_instructions": 375,
+      "fraction": 1.9203328757239836e-06
+    },
+    {
+      "function": "__cpu_indicator_init",
+      "self_instructions": 369,
+      "fraction": 1.8896075497123996e-06
+    },
+    {
+      "function": "0x0000000000162880",
+      "self_instructions": 354,
+      "fraction": 1.8127942346834403e-06
+    },
+    {
+      "function": "0x0000000000012670",
+      "self_instructions": 334,
+      "fraction": 1.7103764813114946e-06
+    },
+    {
+      "function": "_IO_file_xsputn",
+      "self_instructions": 313,
+      "fraction": 1.6028378402709514e-06
+    },
+    {
+      "function": "0x0000000000092620",
+      "self_instructions": 305,
+      "fraction": 1.5618707389221732e-06
+    },
+    {
+      "function": "0x000000000000bda0",
+      "self_instructions": 302,
+      "fraction": 1.5465080759163813e-06
+    },
+    {
+      "function": "0x00000000000148b0",
+      "self_instructions": 301,
+      "fraction": 1.5413871882477841e-06
+    },
+    {
+      "function": "pthread_cond_wait",
+      "self_instructions": 290,
+      "fraction": 1.4850574238932138e-06
+    },
+    {
+      "function": "mmap",
+      "self_instructions": 286,
+      "fraction": 1.4645738732188247e-06
+    },
+    {
+      "function": "0x0000000000011840",
+      "self_instructions": 284,
+      "fraction": 1.45433209788163e-06
+    },
+    {
+      "function": "0x0000000000092370",
+      "self_instructions": 275,
+      "fraction": 1.4082441088642544e-06
+    },
+    {
+      "function": "0x0000000000013760",
+      "self_instructions": 264,
+      "fraction": 1.3519143445096844e-06
+    },
+    {
+      "function": "0x0000000000007190",
+      "self_instructions": 260,
+      "fraction": 1.3314307938352953e-06
+    },
+    {
+      "function": "threadpool::activateWorkerThread(int)",
+      "self_instructions": 260,
+      "fraction": 1.3314307938352953e-06
+    },
+    {
+      "function": "0x0000000000011940",
+      "self_instructions": 256,
+      "fraction": 1.310947243160906e-06
+    },
+    {
+      "function": "0x0000000000004c80",
+      "self_instructions": 256,
+      "fraction": 1.310947243160906e-06
+    },
+    {
+      "function": "typedthreads::createThread(var<Thread<ptr<threadpool::Worker> > >, proc<ptr<threadpool::Worker> >, ptr<threadpool::Worker>)",
+      "self_instructions": 255,
+      "fraction": 1.3058263554923087e-06
+    },
+    {
+      "function": "0x0000000000164c40",
+      "self_instructions": 252,
+      "fraction": 1.2904636924865169e-06
+    },
+    {
+      "function": "prepareAdd",
+      "self_instructions": 252,
+      "fraction": 1.2904636924865169e-06
+    },
+    {
+      "function": "__isoc23_strtoul",
+      "self_instructions": 240,
+      "fraction": 1.2290130404633493e-06
+    },
+    {
+      "function": "0x0000000000022ff0",
+      "self_instructions": 233,
+      "fraction": 1.1931668267831684e-06
+    },
+    {
+      "function": "threadpool::slave(ptr<threadpool::Worker>)",
+      "self_instructions": 233,
+      "fraction": 1.1931668267831684e-06
+    },
+    {
+      "function": "0x0000000000087a70",
+      "self_instructions": 231,
+      "fraction": 1.1829250514459737e-06
+    },
+    {
+      "function": "0x0000000000015a30",
+      "self_instructions": 228,
+      "fraction": 1.1675623884401818e-06
+    },
+    {
+      "function": "0x0000000000005aa0",
+      "self_instructions": 221,
+      "fraction": 1.1317161747600009e-06
+    },
+    {
+      "function": "0x0000000000005d00",
+      "self_instructions": 218,
+      "fraction": 1.116353511754209e-06
+    },
+    {
+      "function": "0x000000000001a9a0",
+      "self_instructions": 215,
+      "fraction": 1.100990848748417e-06
+    },
+    {
+      "function": "0x0000000000016260",
+      "self_instructions": 212,
+      "fraction": 1.0856281857426252e-06
+    },
+    {
+      "function": "0x000000000001af30",
+      "self_instructions": 212,
+      "fraction": 1.0856281857426252e-06
+    },
+    {
+      "function": "0x000000000008f340",
+      "self_instructions": 208,
+      "fraction": 1.0651446350682361e-06
+    },
+    {
+      "function": "0x000000000008d710",
+      "self_instructions": 208,
+      "fraction": 1.0651446350682361e-06
+    },
+    {
+      "function": "0x00000000000895a0",
+      "self_instructions": 200,
+      "fraction": 1.024177533719458e-06
+    },
+    {
+      "function": "system::threadProcWrapStackFrame(ptr<Thread<ptr<threadpool::Worker> > >)",
+      "self_instructions": 200,
+      "fraction": 1.024177533719458e-06
+    },
+    {
+      "function": "0x0000000000004dd0",
+      "self_instructions": 199,
+      "fraction": 1.0190566460508605e-06
+    },
+    {
+      "function": "0x0000000000023bc0",
+      "self_instructions": 193,
+      "fraction": 9.883313200392767e-07
+    },
+    {
+      "function": "signal",
+      "self_instructions": 192,
+      "fraction": 9.832104323706795e-07
+    },
+    {
+      "function": "parseutils::rawParseInt(openArray<char>, var<int64>)",
+      "self_instructions": 186,
+      "fraction": 9.524851063590958e-07
+    },
+    {
+      "function": "0x0000000000092560",
+      "self_instructions": 185,
+      "fraction": 9.473642186904984e-07
+    },
+    {
+      "function": "system::freeBigChunk(var<system::MemRegion>, ptr<system::BigChunk>)",
+      "self_instructions": 182,
+      "fraction": 9.320015556847067e-07
+    },
+    {
+      "function": "strformat::formatFloat(var<string>, float, strutils::FloatFormatMode, strformat::StandardFormatSpecifier)",
+      "self_instructions": 181,
+      "fraction": 9.268806680161093e-07
+    },
+    {
+      "function": "0x0000000000110440",
+      "self_instructions": 180,
+      "fraction": 9.21759780347512e-07
+    },
+    {
+      "function": "snprintf",
+      "self_instructions": 177,
+      "fraction": 9.063971173417201e-07
+    },
+    {
+      "function": "_IO_flush_all",
+      "self_instructions": 171,
+      "fraction": 8.756717913301365e-07
+    },
+    {
+      "function": "0x000000000000bad0",
+      "self_instructions": 169,
+      "fraction": 8.654300159929418e-07
+    },
+    {
+      "function": "0x000000000001b140",
+      "self_instructions": 164,
+      "fraction": 8.398255776499554e-07
+    },
+    {
+      "function": "0x0000000000022e60",
+      "self_instructions": 162,
+      "fraction": 8.295838023127608e-07
+    },
+    {
+      "function": "cstrToNimstr",
+      "self_instructions": 160,
+      "fraction": 8.193420269755663e-07
+    },
+    {
+      "function": "0x0000000000007090",
+      "self_instructions": 159,
+      "fraction": 8.14221139306969e-07
+    },
+    {
+      "function": "__sigsetjmp",
+      "self_instructions": 156,
+      "fraction": 7.988584763011771e-07
+    },
+    {
+      "function": "0x00000000000a0530",
+      "self_instructions": 153,
+      "fraction": 7.834958132953852e-07
+    },
+    {
+      "function": "0x000000000000ba00",
+      "self_instructions": 153,
+      "fraction": 7.834958132953852e-07
+    },
+    {
+      "function": "0x0000000000012470",
+      "self_instructions": 147,
+      "fraction": 7.527704872838015e-07
+    },
+    {
+      "function": "_IO_file_write",
+      "self_instructions": 144,
+      "fraction": 7.374078242780096e-07
+    },
+    {
+      "function": "system::rawAlloc(var<system::MemRegion>, int, int)",
+      "self_instructions": 138,
+      "fraction": 7.066824982664259e-07
+    },
+    {
+      "function": "sigaction",
+      "self_instructions": 133,
+      "fraction": 6.810780599234394e-07
+    },
+    {
+      "function": "0x00000000001655c0",
+      "self_instructions": 130,
+      "fraction": 6.657153969176476e-07
+    },
+    {
+      "function": "pthread_cond_init",
+      "self_instructions": 128,
+      "fraction": 6.55473621580453e-07
+    },
+    {
+      "function": "clone",
+      "self_instructions": 125,
+      "fraction": 6.401109585746611e-07
+    },
+    {
+      "function": "_IO_file_overflow",
+      "self_instructions": 124,
+      "fraction": 6.349900709060639e-07
+    },
+    {
+      "function": "0x000000000009a700",
+      "self_instructions": 121,
+      "fraction": 6.19627407900272e-07
+    },
+    {
+      "function": "envvars::getEnv(string, string)",
+      "self_instructions": 120,
+      "fraction": 6.145065202316747e-07
+    },
+    {
+      "function": "0x0000000000059d20",
+      "self_instructions": 119,
+      "fraction": 6.093856325630775e-07
+    },
+    {
+      "function": "0x000000000000c200",
+      "self_instructions": 118,
+      "fraction": 6.042647448944801e-07
+    },
+    {
+      "function": "_dl_catch_exception",
+      "self_instructions": 117,
+      "fraction": 5.991438572258828e-07
+    },
+    {
+      "function": "prepareSeqAddUninit",
+      "self_instructions": 117,
+      "fraction": 5.991438572258828e-07
+    },
+    {
+      "function": "0x0000000000097460",
+      "self_instructions": 115,
+      "fraction": 5.889020818886882e-07
+    },
+    {
+      "function": "0x000000000005c6b0",
+      "self_instructions": 114,
+      "fraction": 5.837811942200909e-07
+    },
+    {
+      "function": "0x0000000000011f40",
+      "self_instructions": 114,
+      "fraction": 5.837811942200909e-07
+    },
+    {
+      "function": "newSeqPayloadUninit",
+      "self_instructions": 114,
+      "fraction": 5.837811942200909e-07
+    },
+    {
+      "function": "__cxa_finalize",
+      "self_instructions": 112,
+      "fraction": 5.735394188828964e-07
+    },
+    {
+      "function": "0x00000000000a1f90",
+      "self_instructions": 112,
+      "fraction": 5.735394188828964e-07
+    },
+    {
+      "function": "0x000000000001b220",
+      "self_instructions": 111,
+      "fraction": 5.68418531214299e-07
+    },
+    {
+      "function": "system::eqcopy_(var<string>, string)",
+      "self_instructions": 111,
+      "fraction": 5.68418531214299e-07
+    },
+    {
+      "function": "0x000000000008fa00",
+      "self_instructions": 110,
+      "fraction": 5.632976435457018e-07
+    },
+    {
+      "function": "0x0000000000011770",
+      "self_instructions": 108,
+      "fraction": 5.530558682085073e-07
+    },
+    {
+      "function": "0x0000000000007ab0",
+      "self_instructions": 108,
+      "fraction": 5.530558682085073e-07
+    },
+    {
+      "function": "echoBinSafe",
+      "self_instructions": 104,
+      "fraction": 5.325723175341181e-07
+    },
+    {
+      "function": "0x0000000000001f70",
+      "self_instructions": 102,
+      "fraction": 5.223305421969235e-07
+    },
+    {
+      "function": "0x00000000000110a0",
+      "self_instructions": 99,
+      "fraction": 5.069678791911316e-07
+    },
+    {
+      "function": "0x0000000000110e00",
+      "self_instructions": 98,
+      "fraction": 5.018469915225343e-07
+    },
+    {
+      "function": "__ctype_init",
+      "self_instructions": 96,
+      "fraction": 4.916052161853398e-07
+    },
+    {
+      "function": "atpsystemdotnim_Init000",
+      "self_instructions": 94,
+      "fraction": 4.813634408481452e-07
+    },
+    {
+      "function": "system::removeChunkFromMatrix(var<system::MemRegion>, ptr<system::BigChunk>)",
+      "self_instructions": 93,
+      "fraction": 4.762425531795479e-07
+    },
+    {
+      "function": "0x000000000001a900",
+      "self_instructions": 92,
+      "fraction": 4.711216655109506e-07
+    },
+    {
+      "function": "__libc_early_init",
+      "self_instructions": 91,
+      "fraction": 4.6600077784235333e-07
+    },
+    {
+      "function": "system::rawDealloc(var<system::MemRegion>, pointer)",
+      "self_instructions": 86,
+      "fraction": 4.4039633949936685e-07
+    },
+    {
+      "function": "0x0000000000006e50",
+      "self_instructions": 85,
+      "fraction": 4.352754518307696e-07
+    },
+    {
+      "function": "fflush",
+      "self_instructions": 84,
+      "fraction": 4.301545641621723e-07
+    },
+    {
+      "function": "0x0000000000005250",
+      "self_instructions": 84,
+      "fraction": 4.301545641621723e-07
+    },
+    {
+      "function": "0x0000000000042050",
+      "self_instructions": 83,
+      "fraction": 4.25033676493575e-07
+    },
+    {
+      "function": "ferror",
+      "self_instructions": 82,
+      "fraction": 4.199127888249777e-07
+    },
+    {
+      "function": "syncio::write(ptr<syncio::CFile>, string)",
+      "self_instructions": 82,
+      "fraction": 4.199127888249777e-07
+    },
+    {
+      "function": "times::initDuration(int64, int64, int64, int64, int64, int64, int64, int64)",
+      "self_instructions": 81,
+      "fraction": 4.147919011563804e-07
+    },
+    {
+      "function": "system::requestOsChunks(var<system::MemRegion>, int)",
+      "self_instructions": 81,
+      "fraction": 4.147919011563804e-07
+    },
+    {
+      "function": "(below main)",
+      "self_instructions": 80,
+      "fraction": 4.0967101348778315e-07
+    },
+    {
+      "function": "0x0000000000022d50",
+      "self_instructions": 80,
+      "fraction": 4.0967101348778315e-07
+    },
+    {
+      "function": "atpthreadpooldotnim_Init000",
+      "self_instructions": 79,
+      "fraction": 4.045501258191858e-07
+    },
+    {
+      "function": "system::newSeq(range09223372036854775807)",
+      "self_instructions": 78,
+      "fraction": 3.9942923815058855e-07
+    },
+    {
+      "function": "0x0000000000107490",
+      "self_instructions": 77,
+      "fraction": 3.9430835048199127e-07
+    },
+    {
+      "function": "0x00000000001072e0",
+      "self_instructions": 75,
+      "fraction": 3.8406657514479667e-07
+    },
+    {
+      "function": "digitsutils::addInt(var<string>, int64)",
+      "self_instructions": 75,
+      "fraction": 3.8406657514479667e-07
+    },
+    {
+      "function": "0x0000000000014f40",
+      "self_instructions": 74,
+      "fraction": 3.789456874761994e-07
+    },
+    {
+      "function": "0x0000000000005e20",
+      "self_instructions": 72,
+      "fraction": 3.687039121390048e-07
+    },
+    {
+      "function": "system::freeDeferredObjects(var<system::MemRegion>)",
+      "self_instructions": 72,
+      "fraction": 3.687039121390048e-07
+    },
+    {
+      "function": "0x0000000000015890",
+      "self_instructions": 71,
+      "fraction": 3.635830244704075e-07
+    },
+    {
+      "function": "0x0000000000006240",
+      "self_instructions": 70,
+      "fraction": 3.5846213680181024e-07
+    },
+    {
+      "function": "0x000000000008fc70",
+      "self_instructions": 65,
+      "fraction": 3.328576984588238e-07
+    },
+    {
+      "function": "pthread_attr_init",
+      "self_instructions": 65,
+      "fraction": 3.328576984588238e-07
+    },
+    {
+      "function": "_IO_file_sync",
+      "self_instructions": 65,
+      "fraction": 3.328576984588238e-07
+    },
+    {
+      "function": "parseutils::parseInt(string, var<int>, int)",
+      "self_instructions": 64,
+      "fraction": 3.277368107902265e-07
+    },
+    {
+      "function": "0x0000000000013070",
+      "self_instructions": 62,
+      "fraction": 3.1749503545303194e-07
+    },
+    {
+      "function": "mnewString",
+      "self_instructions": 62,
+      "fraction": 3.1749503545303194e-07
+    },
+    {
+      "function": "0x0000000000162830",
+      "self_instructions": 60,
+      "fraction": 3.0725326011583734e-07
+    },
+    {
+      "function": "pthread_cond_signal",
+      "self_instructions": 60,
+      "fraction": 3.0725326011583734e-07
+    },
+    {
+      "function": "0x0000000000012d50",
+      "self_instructions": 60,
+      "fraction": 3.0725326011583734e-07
+    },
+    {
+      "function": "nsuParseInt",
+      "self_instructions": 60,
+      "fraction": 3.0725326011583734e-07
+    },
+    {
+      "function": "nimRawDispose",
+      "self_instructions": 60,
+      "fraction": 3.0725326011583734e-07
+    },
+    {
+      "function": "0x0000000000014740",
+      "self_instructions": 59,
+      "fraction": 3.0213237244724006e-07
+    },
+    {
+      "function": "pthread_rwlock_wrlock",
+      "self_instructions": 58,
+      "fraction": 2.970114847786428e-07
+    },
+    {
+      "function": "strformat::alignString(string, int, char, char)",
+      "self_instructions": 58,
+      "fraction": 2.970114847786428e-07
+    },
+    {
+      "function": "0x00000000000232a0",
+      "self_instructions": 57,
+      "fraction": 2.9189059711004546e-07
+    },
+    {
+      "function": "malloc",
+      "self_instructions": 54,
+      "fraction": 2.7652793410425363e-07
+    },
+    {
+      "function": "0x000000000001e500",
+      "self_instructions": 53,
+      "fraction": 2.714070464356563e-07
+    },
+    {
+      "function": "benchy::eqdestroy_(seq<float>)",
+      "self_instructions": 53,
+      "fraction": 2.714070464356563e-07
+    },
+    {
+      "function": "system::substr(string, int, int)",
+      "self_instructions": 52,
+      "fraction": 2.6628615876705903e-07
+    },
+    {
+      "function": "errors::checkedSize(int, int)",
+      "self_instructions": 51,
+      "fraction": 2.6116527109846176e-07
+    },
+    {
+      "function": "getpagesize",
+      "self_instructions": 50,
+      "fraction": 2.560443834298645e-07
+    },
+    {
+      "function": "roadmap::run(string, Matrix<float>, Matrix<float>)",
+      "self_instructions": 49,
+      "fraction": 2.5092349576126715e-07
+    },
+    {
+      "function": "system::llAlloc(var<system::MemRegion>, int)",
+      "self_instructions": 49,
+      "fraction": 2.5092349576126715e-07
+    },
+    {
+      "function": "system::add(var<seq<int> >, sink<int>)",
+      "self_instructions": 49,
+      "fraction": 2.5092349576126715e-07
+    },
+    {
+      "function": "0x000000000009e390",
+      "self_instructions": 48,
+      "fraction": 2.458026080926699e-07
+    },
+    {
+      "function": "strlen",
+      "self_instructions": 48,
+      "fraction": 2.458026080926699e-07
+    },
+    {
+      "function": "strnlen",
+      "self_instructions": 48,
+      "fraction": 2.458026080926699e-07
+    },
+    {
+      "function": "wcschr",
+      "self_instructions": 48,
+      "fraction": 2.458026080926699e-07
+    },
+    {
+      "function": "0x000000000001ad20",
+      "self_instructions": 48,
+      "fraction": 2.458026080926699e-07
+    },
+    {
+      "function": "sbrk",
+      "self_instructions": 47,
+      "fraction": 2.406817204240726e-07
+    },
+    {
+      "function": "_IO_file_doallocate",
+      "self_instructions": 47,
+      "fraction": 2.406817204240726e-07
+    },
+    {
+      "function": "0x00000000001103d0",
+      "self_instructions": 47,
+      "fraction": 2.406817204240726e-07
+    },
+    {
+      "function": "_IO_doallocbuf",
+      "self_instructions": 46,
+      "fraction": 2.355608327554753e-07
+    },
+    {
+      "function": "0x000000000008cb90",
+      "self_instructions": 46,
+      "fraction": 2.355608327554753e-07
+    },
+    {
+      "function": "core::eqsink_(var<core::Matrix>, core::Matrix)",
+      "self_instructions": 46,
+      "fraction": 2.355608327554753e-07
+    },
+    {
+      "function": "system::threadProcWrapDispatch(ptr<Thread<ptr<threadpool::Worker> > >)",
+      "self_instructions": 45,
+      "fraction": 2.30439945086878e-07
+    },
+    {
+      "function": "setLengthStrV2",
+      "self_instructions": 45,
+      "fraction": 2.30439945086878e-07
+    },
+    {
+      "function": "sysconf",
+      "self_instructions": 44,
+      "fraction": 2.2531905741828073e-07
+    },
+    {
+      "function": "memset",
+      "self_instructions": 44,
+      "fraction": 2.2531905741828073e-07
+    },
+    {
+      "function": "wmemchr",
+      "self_instructions": 44,
+      "fraction": 2.2531905741828073e-07
+    },
+    {
+      "function": "rawNewString",
+      "self_instructions": 44,
+      "fraction": 2.2531905741828073e-07
+    },
+    {
+      "function": "0x0000000000053c40",
+      "self_instructions": 43,
+      "fraction": 2.2019816974968343e-07
+    },
+    {
+      "function": "0x0000000000029a20",
+      "self_instructions": 43,
+      "fraction": 2.2019816974968343e-07
+    },
+    {
+      "function": "_IO_default_xsputn",
+      "self_instructions": 43,
+      "fraction": 2.2019816974968343e-07
+    },
+    {
+      "function": "strformat::formatValue_sX22X22_(var<string>, string)",
+      "self_instructions": 43,
+      "fraction": 2.2019816974968343e-07
+    },
+    {
+      "function": "memcpy",
+      "self_instructions": 42,
+      "fraction": 2.1507728208108615e-07
+    },
+    {
+      "function": "0x0000000000054ed0",
+      "self_instructions": 42,
+      "fraction": 2.1507728208108615e-07
+    },
+    {
+      "function": "flockfile",
+      "self_instructions": 42,
+      "fraction": 2.1507728208108615e-07
+    },
+    {
+      "function": "nimNewObj",
+      "self_instructions": 42,
+      "fraction": 2.1507728208108615e-07
+    },
+    {
+      "function": "0x000000000001b3f0",
+      "self_instructions": 41,
+      "fraction": 2.0995639441248885e-07
+    },
+    {
+      "function": "0x000000000000bec0",
+      "self_instructions": 41,
+      "fraction": 2.0995639441248885e-07
+    },
+    {
+      "function": "pthread_rwlock_unlock",
+      "self_instructions": 40,
+      "fraction": 2.0483550674389157e-07
+    },
+    {
+      "function": "0x000000000001dd60",
+      "self_instructions": 40,
+      "fraction": 2.0483550674389157e-07
+    },
+    {
+      "function": "_dl_allocate_tls",
+      "self_instructions": 40,
+      "fraction": 2.0483550674389157e-07
+    },
+    {
+      "function": "__cxa_atexit",
+      "self_instructions": 39,
+      "fraction": 1.9971461907529427e-07
+    },
+    {
+      "function": "_IO_enable_locks",
+      "self_instructions": 38,
+      "fraction": 1.94593731406697e-07
+    },
+    {
+      "function": "0x0000000000005310",
+      "self_instructions": 38,
+      "fraction": 1.94593731406697e-07
+    },
+    {
+      "function": "0x0000000000022f40",
+      "self_instructions": 38,
+      "fraction": 1.94593731406697e-07
+    },
+    {
+      "function": "strformat::formatValue_sX22X22_(var<string>, int)",
+      "self_instructions": 38,
+      "fraction": 1.94593731406697e-07
+    },
+    {
+      "function": "write",
+      "self_instructions": 36,
+      "fraction": 1.843519560695024e-07
+    },
+    {
+      "function": "0x000000000008f3c0",
+      "self_instructions": 36,
+      "fraction": 1.843519560695024e-07
+    },
+    {
+      "function": "wmemset",
+      "self_instructions": 36,
+      "fraction": 1.843519560695024e-07
+    },
+    {
+      "function": "0x0000000000012270",
+      "self_instructions": 36,
+      "fraction": 1.843519560695024e-07
+    },
+    {
+      "function": "typedthreads::threadProcWrapper(pointer)",
+      "self_instructions": 35,
+      "fraction": 1.7923106840090512e-07
+    },
+    {
+      "function": "_IO_do_write",
+      "self_instructions": 34,
+      "fraction": 1.7411018073230782e-07
+    },
+    {
+      "function": "0x0000000000054c20",
+      "self_instructions": 34,
+      "fraction": 1.7411018073230782e-07
+    },
+    {
+      "function": "0x000000000001cc10",
+      "self_instructions": 34,
+      "fraction": 1.7411018073230782e-07
+    },
+    {
+      "function": "0x0000000000003640",
+      "self_instructions": 34,
+      "fraction": 1.7411018073230782e-07
+    },
+    {
+      "function": "monotimes::getMonoTime",
+      "self_instructions": 34,
+      "fraction": 1.7411018073230782e-07
+    },
+    {
+      "function": "0x0000000000012d00",
+      "self_instructions": 32,
+      "fraction": 1.6386840539511324e-07
+    },
+    {
+      "function": "0x0000000000041980",
+      "self_instructions": 31,
+      "fraction": 1.5874751772651597e-07
+    },
+    {
+      "function": "0x0000000000025f00",
+      "self_instructions": 31,
+      "fraction": 1.5874751772651597e-07
+    },
+    {
+      "function": "pthread_attr_setstacksize",
+      "self_instructions": 30,
+      "fraction": 1.5362663005791867e-07
+    },
+    {
+      "function": "0x00000000000f7e70",
+      "self_instructions": 30,
+      "fraction": 1.5362663005791867e-07
+    },
+    {
+      "function": "_pthread_cleanup_push",
+      "self_instructions": 30,
+      "fraction": 1.5362663005791867e-07
+    },
+    {
+      "function": "0x0000000000053ae0",
+      "self_instructions": 30,
+      "fraction": 1.5362663005791867e-07
+    },
+    {
+      "function": "0x00000000000bb6a0",
+      "self_instructions": 29,
+      "fraction": 1.485057423893214e-07
+    },
+    {
+      "function": "0x000000000001d8d0",
+      "self_instructions": 28,
+      "fraction": 1.433848547207241e-07
+    },
+    {
+      "function": "alignedDealloc",
+      "self_instructions": 28,
+      "fraction": 1.433848547207241e-07
+    },
+    {
+      "function": "_IO_setb",
+      "self_instructions": 27,
+      "fraction": 1.3826396705212682e-07
+    },
+    {
+      "function": "0x00000000000230d0",
+      "self_instructions": 27,
+      "fraction": 1.3826396705212682e-07
+    },
+    {
+      "function": "0x0000000000003420",
+      "self_instructions": 27,
+      "fraction": 1.3826396705212682e-07
+    },
+    {
+      "function": "0x0000000000025d00",
+      "self_instructions": 27,
+      "fraction": 1.3826396705212682e-07
+    },
+    {
+      "function": "pthread_attr_destroy",
+      "self_instructions": 25,
+      "fraction": 1.2802219171493224e-07
+    },
+    {
+      "function": "0x0000000000095190",
+      "self_instructions": 25,
+      "fraction": 1.2802219171493224e-07
+    },
+    {
+      "function": "mprotect",
+      "self_instructions": 25,
+      "fraction": 1.2802219171493224e-07
+    },
+    {
+      "function": "rindex",
+      "self_instructions": 24,
+      "fraction": 1.2290130404633494e-07
+    },
+    {
+      "function": "wcscmp",
+      "self_instructions": 24,
+      "fraction": 1.2290130404633494e-07
+    },
+    {
+      "function": "strchrnul",
+      "self_instructions": 24,
+      "fraction": 1.2290130404633494e-07
+    },
+    {
+      "function": "memrchr",
+      "self_instructions": 24,
+      "fraction": 1.2290130404633494e-07
+    },
+    {
+      "function": "0x000000000008fa80",
+      "self_instructions": 24,
+      "fraction": 1.2290130404633494e-07
+    },
+    {
+      "function": "0x0000000000029c30",
+      "self_instructions": 24,
+      "fraction": 1.2290130404633494e-07
+    },
+    {
+      "function": "0x0000000000018570",
+      "self_instructions": 24,
+      "fraction": 1.2290130404633494e-07
+    },
+    {
+      "function": "0x000000000001ae80",
+      "self_instructions": 24,
+      "fraction": 1.2290130404633494e-07
+    },
+    {
+      "function": "0x0000000000007670",
+      "self_instructions": 24,
+      "fraction": 1.2290130404633494e-07
+    },
+    {
+      "function": "wmemcmp",
+      "self_instructions": 23,
+      "fraction": 1.1778041637773765e-07
+    },
+    {
+      "function": "__open_nocancel",
+      "self_instructions": 23,
+      "fraction": 1.1778041637773765e-07
+    },
+    {
+      "function": "bcmp",
+      "self_instructions": 23,
+      "fraction": 1.1778041637773765e-07
+    },
+    {
+      "function": "0x000000000000e710",
+      "self_instructions": 23,
+      "fraction": 1.1778041637773765e-07
+    },
+    {
+      "function": "0x0000000000001f00",
+      "self_instructions": 23,
+      "fraction": 1.1778041637773765e-07
+    },
+    {
+      "function": "0x0000000000029b00",
+      "self_instructions": 22,
+      "fraction": 1.1265952870914036e-07
+    },
+    {
+      "function": "0x0000000000161e80",
+      "self_instructions": 22,
+      "fraction": 1.1265952870914036e-07
+    },
+    {
+      "function": "funlockfile",
+      "self_instructions": 22,
+      "fraction": 1.1265952870914036e-07
+    },
+    {
+      "function": "__memset_chk",
+      "self_instructions": 22,
+      "fraction": 1.1265952870914036e-07
+    },
+    {
+      "function": "memchr",
+      "self_instructions": 22,
+      "fraction": 1.1265952870914036e-07
+    },
+    {
+      "function": "0x00000000000533c0",
+      "self_instructions": 22,
+      "fraction": 1.1265952870914036e-07
+    },
+    {
+      "function": "0x00000000000024a0",
+      "self_instructions": 22,
+      "fraction": 1.1265952870914036e-07
+    },
+    {
+      "function": "__memcpy_chk",
+      "self_instructions": 21,
+      "fraction": 1.0753864104054308e-07
+    },
+    {
+      "function": "__memmove_chk",
+      "self_instructions": 21,
+      "fraction": 1.0753864104054308e-07
+    },
+    {
+      "function": "memmove",
+      "self_instructions": 21,
+      "fraction": 1.0753864104054308e-07
+    },
+    {
+      "function": "mempcpy",
+      "self_instructions": 21,
+      "fraction": 1.0753864104054308e-07
+    },
+    {
+      "function": "__mempcpy_chk",
+      "self_instructions": 21,
+      "fraction": 1.0753864104054308e-07
+    },
+    {
+      "function": "0x0000000000167470",
+      "self_instructions": 21,
+      "fraction": 1.0753864104054308e-07
+    },
+    {
+      "function": "monotimes::minus_(monotimes::MonoTime, monotimes::MonoTime)",
+      "self_instructions": 21,
+      "fraction": 1.0753864104054308e-07
+    },
+    {
+      "function": "times::normalize(int64, int64)",
+      "self_instructions": 21,
+      "fraction": 1.0753864104054308e-07
+    },
+    {
+      "function": "strncmp",
+      "self_instructions": 20,
+      "fraction": 1.0241775337194579e-07
+    },
+    {
+      "function": "strncasecmp_l",
+      "self_instructions": 20,
+      "fraction": 1.0241775337194579e-07
+    },
+    {
+      "function": "strcasecmp_l",
+      "self_instructions": 20,
+      "fraction": 1.0241775337194579e-07
+    },
+    {
+      "function": "strncasecmp",
+      "self_instructions": 20,
+      "fraction": 1.0241775337194579e-07
+    },
+    {
+      "function": "strcasecmp",
+      "self_instructions": 20,
+      "fraction": 1.0241775337194579e-07
+    },
+    {
+      "function": "clock_gettime",
+      "self_instructions": 20,
+      "fraction": 1.0241775337194579e-07
+    },
+    {
+      "function": "__libc_alloca_cutoff",
+      "self_instructions": 20,
+      "fraction": 1.0241775337194579e-07
+    },
+    {
+      "function": "0x00000000000184e0",
+      "self_instructions": 20,
+      "fraction": 1.0241775337194579e-07
+    },
+    {
+      "function": "0x0000000000002290",
+      "self_instructions": 20,
+      "fraction": 1.0241775337194579e-07
+    },
+    {
+      "function": "0x0000000000023090",
+      "self_instructions": 20,
+      "fraction": 1.0241775337194579e-07
+    },
+    {
+      "function": "0x0000000000003510",
+      "self_instructions": 20,
+      "fraction": 1.0241775337194579e-07
+    },
+    {
+      "function": "system::eqsink_(var<string>, string)",
+      "self_instructions": 20,
+      "fraction": 1.0241775337194579e-07
+    },
+    {
+      "function": "wcslen",
+      "self_instructions": 18,
+      "fraction": 9.21759780347512e-08
+    },
+    {
+      "function": "strncpy",
+      "self_instructions": 18,
+      "fraction": 9.21759780347512e-08
+    },
+    {
+      "function": "strcmp",
+      "self_instructions": 18,
+      "fraction": 9.21759780347512e-08
+    },
+    {
+      "function": "wcsnlen",
+      "self_instructions": 18,
+      "fraction": 9.21759780347512e-08
+    },
+    {
+      "function": "index",
+      "self_instructions": 18,
+      "fraction": 9.21759780347512e-08
+    },
+    {
+      "function": "0x000000000008fad0",
+      "self_instructions": 18,
+      "fraction": 9.21759780347512e-08
+    },
+    {
+      "function": "stpncpy",
+      "self_instructions": 18,
+      "fraction": 9.21759780347512e-08
+    },
+    {
+      "function": "0x00000000000238e0",
+      "self_instructions": 18,
+      "fraction": 9.21759780347512e-08
+    },
+    {
+      "function": "0x00000000000034a0",
+      "self_instructions": 18,
+      "fraction": 9.21759780347512e-08
+    },
+    {
+      "function": "wcpncpy",
+      "self_instructions": 17,
+      "fraction": 8.705509036615391e-08
+    },
+    {
+      "function": "wcscat",
+      "self_instructions": 17,
+      "fraction": 8.705509036615391e-08
+    },
+    {
+      "function": "wcsncpy",
+      "self_instructions": 17,
+      "fraction": 8.705509036615391e-08
+    },
+    {
+      "function": "0x00000000000435a0",
+      "self_instructions": 17,
+      "fraction": 8.705509036615391e-08
+    },
+    {
+      "function": "stpcpy",
+      "self_instructions": 16,
+      "fraction": 8.193420269755662e-08
+    },
+    {
+      "function": "__default_morecore",
+      "self_instructions": 16,
+      "fraction": 8.193420269755662e-08
+    },
+    {
+      "function": "brk",
+      "self_instructions": 16,
+      "fraction": 8.193420269755662e-08
+    },
+    {
+      "function": "strcat",
+      "self_instructions": 16,
+      "fraction": 8.193420269755662e-08
+    },
+    {
+      "function": "strcpy",
+      "self_instructions": 16,
+      "fraction": 8.193420269755662e-08
+    },
+    {
+      "function": "0x00000000000034e0",
+      "self_instructions": 16,
+      "fraction": 8.193420269755662e-08
+    },
+    {
+      "function": "0x0000000000013010",
+      "self_instructions": 16,
+      "fraction": 8.193420269755662e-08
+    },
+    {
+      "function": "0x0000000000018730",
+      "self_instructions": 16,
+      "fraction": 8.193420269755662e-08
+    },
+    {
+      "function": "system::rememberCycle(bool, ptr<system::RefHeader>, ptr<system::TNimTypeV2>)",
+      "self_instructions": 16,
+      "fraction": 8.193420269755662e-08
+    },
+    {
+      "function": "0x0000000000110510",
+      "self_instructions": 15,
+      "fraction": 7.681331502895933e-08
+    },
+    {
+      "function": "wcscpy",
+      "self_instructions": 15,
+      "fraction": 7.681331502895933e-08
+    },
+    {
+      "function": "0x000000000001d2c0",
+      "self_instructions": 15,
+      "fraction": 7.681331502895933e-08
+    },
+    {
+      "function": "0x0000000000022c50",
+      "self_instructions": 15,
+      "fraction": 7.681331502895933e-08
+    },
+    {
+      "function": "0x0000000000022d70",
+      "self_instructions": 15,
+      "fraction": 7.681331502895933e-08
+    },
+    {
+      "function": "0x000000000001d3c0",
+      "self_instructions": 14,
+      "fraction": 7.169242736036205e-08
+    },
+    {
+      "function": "0x0000000000022710",
+      "self_instructions": 14,
+      "fraction": 7.169242736036205e-08
+    },
+    {
+      "function": "ncpicountProcessors",
+      "self_instructions": 14,
+      "fraction": 7.169242736036205e-08
+    },
+    {
+      "function": "NimMainModule",
+      "self_instructions": 14,
+      "fraction": 7.169242736036205e-08
+    },
+    {
+      "function": "_IO_file_setbuf",
+      "self_instructions": 13,
+      "fraction": 6.657153969176476e-08
+    },
+    {
+      "function": "0x00000000000010c0",
+      "self_instructions": 13,
+      "fraction": 6.657153969176476e-08
+    },
+    {
+      "function": "dollars::dollar_(int)",
+      "self_instructions": 13,
+      "fraction": 6.657153969176476e-08
+    },
+    {
+      "function": "0x0000000000003800",
+      "self_instructions": 13,
+      "fraction": 6.657153969176476e-08
+    },
+    {
+      "function": "0x0000000000040d50",
+      "self_instructions": 12,
+      "fraction": 6.145065202316747e-08
+    },
+    {
+      "function": "_setjmp",
+      "self_instructions": 12,
+      "fraction": 6.145065202316747e-08
+    },
+    {
+      "function": "0x0000000000001100",
+      "self_instructions": 12,
+      "fraction": 6.145065202316747e-08
+    },
+    {
+      "function": "0x0000000000022ed0",
+      "self_instructions": 12,
+      "fraction": 6.145065202316747e-08
+    },
+    {
+      "function": "0x0000000000004c10",
+      "self_instructions": 12,
+      "fraction": 6.145065202316747e-08
+    },
+    {
+      "function": "core::eqdestroy_(var<core::Matrix>)",
+      "self_instructions": 12,
+      "fraction": 6.145065202316747e-08
+    },
+    {
+      "function": "0x0000000000003840",
+      "self_instructions": 12,
+      "fraction": 6.145065202316747e-08
+    },
+    {
+      "function": "0x0000000000029a90",
+      "self_instructions": 11,
+      "fraction": 5.632976435457018e-08
+    },
+    {
+      "function": "__call_tls_dtors",
+      "self_instructions": 11,
+      "fraction": 5.632976435457018e-08
+    },
+    {
+      "function": "0x0000000000011910",
+      "self_instructions": 11,
+      "fraction": 5.632976435457018e-08
+    },
+    {
+      "function": "0x0000000000015260",
+      "self_instructions": 11,
+      "fraction": 5.632976435457018e-08
+    },
+    {
+      "function": "main",
+      "self_instructions": 11,
+      "fraction": 5.632976435457018e-08
+    },
+    {
+      "function": "(below main)",
+      "self_instructions": 11,
+      "fraction": 5.632976435457018e-08
+    },
+    {
+      "function": "0x0000000000013000",
+      "self_instructions": 10,
+      "fraction": 5.1208876685972894e-08
+    },
+    {
+      "function": "0x0000000000022f00",
+      "self_instructions": 10,
+      "fraction": 5.1208876685972894e-08
+    },
+    {
+      "function": "0x000000000001db20",
+      "self_instructions": 10,
+      "fraction": 5.1208876685972894e-08
+    },
+    {
+      "function": "accelerated::simdBackend",
+      "self_instructions": 10,
+      "fraction": 5.1208876685972894e-08
+    },
+    {
+      "function": "core::eqwasMoved_(var<core::Matrix>)",
+      "self_instructions": 10,
+      "fraction": 5.1208876685972894e-08
+    },
+    {
+      "function": "getrlimit",
+      "self_instructions": 9,
+      "fraction": 4.60879890173756e-08
+    },
+    {
+      "function": "0x0000000000012300",
+      "self_instructions": 9,
+      "fraction": 4.60879890173756e-08
+    },
+    {
+      "function": "0x000000000001af80",
+      "self_instructions": 9,
+      "fraction": 4.60879890173756e-08
+    },
+    {
+      "function": "0x0000000000040d20",
+      "self_instructions": 8,
+      "fraction": 4.096710134877831e-08
+    },
+    {
+      "function": "0x0000000000022c30",
+      "self_instructions": 8,
+      "fraction": 4.096710134877831e-08
+    },
+    {
+      "function": "0x000000000000bde0",
+      "self_instructions": 8,
+      "fraction": 4.096710134877831e-08
+    },
+    {
+      "function": "core::rows(Matrix<float>)",
+      "self_instructions": 8,
+      "fraction": 4.096710134877831e-08
+    },
+    {
+      "function": "get_nprocs",
+      "self_instructions": 7,
+      "fraction": 3.584621368018102e-08
+    },
+    {
+      "function": "0x0000000000021f30",
+      "self_instructions": 7,
+      "fraction": 3.584621368018102e-08
+    },
+    {
+      "function": "benchy::eqdestroy_(seq<int>)",
+      "self_instructions": 7,
+      "fraction": 3.584621368018102e-08
+    },
+    {
+      "function": "strspn",
+      "self_instructions": 6,
+      "fraction": 3.0725326011583735e-08
+    },
+    {
+      "function": "strpbrk",
+      "self_instructions": 6,
+      "fraction": 3.0725326011583735e-08
+    },
+    {
+      "function": "strcspn",
+      "self_instructions": 6,
+      "fraction": 3.0725326011583735e-08
+    },
+    {
+      "function": "0x000000000483b000",
+      "self_instructions": 6,
+      "fraction": 3.0725326011583735e-08
+    },
+    {
+      "function": "0x000000000010a000",
+      "self_instructions": 6,
+      "fraction": 3.0725326011583735e-08
+    },
+    {
+      "function": "times::inNanoseconds(times::Duration)",
+      "self_instructions": 6,
+      "fraction": 3.0725326011583735e-08
+    },
+    {
+      "function": "nimTestErrorFlag",
+      "self_instructions": 6,
+      "fraction": 3.0725326011583735e-08
+    },
+    {
+      "function": "__close_nocancel",
+      "self_instructions": 5,
+      "fraction": 2.5604438342986447e-08
+    },
+    {
+      "function": "__read_nocancel",
+      "self_instructions": 5,
+      "fraction": 2.5604438342986447e-08
+    },
+    {
+      "function": "fstat",
+      "self_instructions": 5,
+      "fraction": 2.5604438342986447e-08
+    },
+    {
+      "function": "exit",
+      "self_instructions": 5,
+      "fraction": 2.5604438342986447e-08
+    },
+    {
+      "function": "0x0000000000001050",
+      "self_instructions": 5,
+      "fraction": 2.5604438342986447e-08
+    },
+    {
+      "function": "0x0000000000017e50",
+      "self_instructions": 5,
+      "fraction": 2.5604438342986447e-08
+    },
+    {
+      "function": "0x00000000000230b0",
+      "self_instructions": 5,
+      "fraction": 2.5604438342986447e-08
+    },
+    {
+      "function": "0x00000000000123f0",
+      "self_instructions": 5,
+      "fraction": 2.5604438342986447e-08
+    },
+    {
+      "function": "core::zeros(int, int)",
+      "self_instructions": 5,
+      "fraction": 2.5604438342986447e-08
+    },
+    {
+      "function": "matrix_calc_simd_backend",
+      "self_instructions": 5,
+      "fraction": 2.5604438342986447e-08
+    },
+    {
+      "function": "0x0000000000003790",
+      "self_instructions": 5,
+      "fraction": 2.5604438342986447e-08
+    },
+    {
+      "function": "_dl_audit_preinit",
+      "self_instructions": 4,
+      "fraction": 2.0483550674389156e-08
+    },
+    {
+      "function": "_Exit",
+      "self_instructions": 3,
+      "fraction": 1.5362663005791867e-08
+    },
+    {
+      "function": "0x000000000483b284",
+      "self_instructions": 3,
+      "fraction": 1.5362663005791867e-08
+    },
+    {
+      "function": "0x0000000000125ef0",
+      "self_instructions": 3,
+      "fraction": 1.5362663005791867e-08
+    },
+    {
+      "function": "strformat::formatValue_sX22dot12fX22_(var<string>, float)",
+      "self_instructions": 3,
+      "fraction": 1.5362663005791867e-08
+    },
+    {
+      "function": "strformat::formatValue_sX22dot9fX22_(var<string>, float)",
+      "self_instructions": 3,
+      "fraction": 1.5362663005791867e-08
+    },
+    {
+      "function": "_IO_file_stat",
+      "self_instructions": 2,
+      "fraction": 1.0241775337194578e-08
+    },
+    {
+      "function": "_dl_debug_state",
+      "self_instructions": 2,
+      "fraction": 1.0241775337194578e-08
+    },
+    {
+      "function": "0x000000000483b030",
+      "self_instructions": 1,
+      "fraction": 5.120887668597289e-09
+    },
+    {
+      "function": "0x000000000488a3d8",
+      "self_instructions": 1,
+      "fraction": 5.120887668597289e-09
+    },
+    {
+      "function": "0x000000000010a2d0",
+      "self_instructions": 1,
+      "fraction": 5.120887668597289e-09
+    },
+    {
+      "function": "0x000000000001ccd0",
+      "self_instructions": 1,
+      "fraction": 5.120887668597289e-09
+    },
+    {
+      "function": "threadpool::eqdestroy_(var<array<range031, Thread<ptr<threadpool::Worker> > > >)",
+      "self_instructions": 1,
+      "fraction": 5.120887668597289e-09
+    },
+    {
+      "function": "threadpool::eqdestroy_(var<array<range0255, Thread<ptr<threadpool::Worker> > > >)",
+      "self_instructions": 1,
+      "fraction": 5.120887668597289e-09
+    }
+  ]
+}

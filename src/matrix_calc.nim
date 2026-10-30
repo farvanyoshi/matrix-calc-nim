@@ -1,7 +1,4 @@
-# This is just an example to get you started. A typical hybrid package
-# uses this file as the main entry point of the application.
-
-import lib
-
-when isMainModule:
-  echo "hello"
+## Dense matrix, vector and strided tensor library facade.
+## Shape requirements: each exported operation validates its documented dimensions.
+import matrix_calc/[core, errors, linalg, vector, tensor]
+export core, errors, linalg, vector, tensor

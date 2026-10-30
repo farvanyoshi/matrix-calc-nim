@@ -1,3 +1,6 @@
+> Historical planning record. The later tensor roadmap request supersedes its
+> scope/order/approval status; current implementation evidence is in [docs/ROADMAP.md](docs/ROADMAP.md).
+
 # Nim matrix library completion plan — awaiting owner review
 
 ## Scope and working agreement

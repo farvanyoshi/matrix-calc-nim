@@ -1,0 +1,5 @@
+.tools/
+nimcache/
+htmldocs/
+*.out
+*.exe

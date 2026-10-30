@@ -1,0 +1,9 @@
+{
+  "measurement": "actual GDB/MI main-thread interrupt samples",
+  "samples": 420,
+  "unique_stacks": 7,
+  "interval_seconds": 0.02,
+  "command": [
+    ".tools/profile-bench"
+  ]
+}

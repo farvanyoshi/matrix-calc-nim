@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="205" viewBox="0 0 1400 205">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:monospace;font-size:12px} .title{font-size:17px;font-weight:bold}</style>
+<text x="20" y="27" class="title">Callgrind instruction-attribution flame chart (flat self-cost)</text>
+<text x="20" y="52">Widths are executed instruction counts, not CPU time or inferred call stacks.</text>
+<g><title>core::X5BX5D_(Matrix&lt;float&gt;, int, int): 151,584,768 instructions</title><rect x="20.0000" y="89" width="1055.6981" height="43" fill="hsl(12,85%,58%)" stroke="white"/>
+<text x="24.0000" y="114">core::X5BX5D_(Matrix&lt;float&gt;, int, int)</text>
+</g>
+<g><title>roadmap::naive(Matrix&lt;float&gt;, Matrix&lt;float&gt;): 40,142,135 instructions</title><rect x="1075.6981" y="89" width="279.5662" height="43" fill="hsl(16,85%,63%)" stroke="white"/>
+<text x="1079.6981" y="114">roadmap::naive(Matrix&lt;float&gt;, Mat</text>
+</g>
+<g><title>core::fromFn(int, int, proc&lt;float, int, int&gt;): 723,038 instructions</title><rect x="1355.2642" y="89" width="5.0355" height="43" fill="hsl(20,85%,68%)" stroke="white"/>
+</g>
+<g><title>core::X5BX5Deq_(var&lt;Matrix&lt;float&gt; &gt;, int, int, float): 589,824 instructions</title><rect x="1360.2998" y="89" width="4.1078" height="43" fill="hsl(24,85%,73%)" stroke="white"/>
+</g>
+<g><title>roadmap::checksum(Matrix&lt;float&gt;): 525,595 instructions</title><rect x="1364.4075" y="89" width="3.6605" height="43" fill="hsl(28,85%,58%)" stroke="white"/>
+</g>
+<g><title>0x0000000000163280: 471,545 instructions</title><rect x="1368.0680" y="89" width="3.2840" height="43" fill="hsl(32,85%,63%)" stroke="white"/>
+</g>
+<g><title>inputs::colonanonymous_(int, int): 393,216 instructions</title><rect x="1371.3520" y="89" width="2.7385" height="43" fill="hsl(36,85%,68%)" stroke="white"/>
+</g>
+<g><title>inputs::colonanonymous__roadmap_u71_(int, int): 376,832 instructions</title><rect x="1374.0905" y="89" width="2.6244" height="43" fill="hsl(40,85%,73%)" stroke="white"/>
+</g>
+<g><title>core::filled(int, int, float): 230,722 instructions</title><rect x="1376.7150" y="89" width="1.6068" height="43" fill="hsl(44,85%,58%)" stroke="white"/>
+</g>
+<g><title>core::cols(Matrix&lt;float&gt;): 33,284 instructions</title><rect x="1378.3218" y="89" width="0.2318" height="43" fill="hsl(12,85%,63%)" stroke="white"/>
+</g>
+<g><title>0x000000000000a220: 31,035 instructions</title><rect x="1378.5536" y="89" width="0.2161" height="43" fill="hsl(16,85%,68%)" stroke="white"/>
+</g>
+<g><title>0x000000000000e870: 27,608 instructions</title><rect x="1378.7697" y="89" width="0.1923" height="43" fill="hsl(20,85%,73%)" stroke="white"/>
+</g>
+<g><title>0x0000000000013780: 27,332 instructions</title><rect x="1378.9620" y="89" width="0.1904" height="43" fill="hsl(24,85%,58%)" stroke="white"/>
+</g>
+<g><title>0x000000000000ae90: 23,257 instructions</title><rect x="1379.1524" y="89" width="0.1620" height="43" fill="hsl(28,85%,63%)" stroke="white"/>
+</g>
+<g><title>0x0000000000024740: 10,009 instructions</title><rect x="1379.3143" y="89" width="0.0697" height="43" fill="hsl(32,85%,68%)" stroke="white"/>
+</g>
+<g><title>0x0000000000023da0: 7,837 instructions</title><rect x="1379.3840" y="89" width="0.0546" height="43" fill="hsl(36,85%,73%)" stroke="white"/>
+</g>
+<g><title>0x000000000000a0a0: 7,019 instructions</title><rect x="1379.4386" y="89" width="0.0489" height="43" fill="hsl(40,85%,58%)" stroke="white"/>
+</g>
+<g><title>0x0000000000015f00: 5,366 instructions</title><rect x="1379.4875" y="89" width="0.0374" height="43" fill="hsl(44,85%,63%)" stroke="white"/>
+</g>
+<g><title>0x0000000000013e00: 4,390 instructions</title><rect x="1379.5249" y="89" width="0.0306" height="43" fill="hsl(12,85%,68%)" stroke="white"/>
+</g>
+<g><title>0x00000000000110d0: 2,562 instructions</title><rect x="1379.5554" y="89" width="0.0178" height="43" fill="hsl(16,85%,73%)" stroke="white"/>
+</g>
+<g><title>0x0000000000007cb0: 2,478 instructions</title><rect x="1379.5733" y="89" width="0.0173" height="43" fill="hsl(20,85%,58%)" stroke="white"/>
+</g>
+<g><title>0x000000000001e600: 1,728 instructions</title><rect x="1379.5905" y="89" width="0.0120" height="43" fill="hsl(24,85%,63%)" stroke="white"/>
+</g>
+<g><title>0x00000000000a0fe0: 1,648 instructions</title><rect x="1379.6026" y="89" width="0.0115" height="43" fill="hsl(28,85%,68%)" stroke="white"/>
+</g>
+<g><title>getenv: 1,555 instructions</title><rect x="1379.6141" y="89" width="0.0108" height="43" fill="hsl(32,85%,73%)" stroke="white"/>
+</g>
+<g><title>0x0000000000062580: 1,456 instructions</title><rect x="1379.6249" y="89" width="0.0101" height="43" fill="hsl(36,85%,58%)" stroke="white"/>
+</g>
+<g><title>pthread_create: 1,429 instructions</title><rect x="1379.6350" y="89" width="0.0100" height="43" fill="hsl(40,85%,63%)" stroke="white"/>
+</g>
+<g><title>0x000000000005a450: 1,152 instructions</title><rect x="1379.6450" y="89" width="0.0080" height="43" fill="hsl(44,85%,68%)" stroke="white"/>
+</g>
+<g><title>system::getBigChunk(var&lt;system::MemRegion&gt;, int): 1,055 instructions</title><rect x="1379.6530" y="89" width="0.0073" height="43" fill="hsl(12,85%,73%)" stroke="white"/>
+</g>
+<g><title>0x000000000005a300: 1,054 instructions</title><rect x="1379.6604" y="89" width="0.0073" height="43" fill="hsl(16,85%,58%)" stroke="white"/>
+</g>
+<g><title>0x000000000001b390: 1,033 instructions</title><rect x="1379.6677" y="89" width="0.0072" height="43" fill="hsl(20,85%,63%)" stroke="white"/>
+</g>
+<g><title>0x00000000000133c0: 1,000 instructions</title><rect x="1379.6749" y="89" width="0.0070" height="43" fill="hsl(24,85%,68%)" stroke="white"/>
+</g>
+<g><title>0x0000000000003680: 997 instructions</title><rect x="1379.6819" y="89" width="0.0069" height="43" fill="hsl(28,85%,73%)" stroke="white"/>
+</g>
+<g><title>calloc: 973 instructions</title><rect x="1379.6888" y="89" width="0.0068" height="43" fill="hsl(32,85%,58%)" stroke="white"/>
+</g>
+<g><title>_dl_allocate_tls_init: 944 instructions</title><rect x="1379.6956" y="89" width="0.0066" height="43" fill="hsl(36,85%,63%)" stroke="white"/>
+</g>
+<g><title>0x000000000009eea0: 858 instructions</title><rect x="1379.7021" y="89" width="0.0060" height="43" fill="hsl(40,85%,68%)" stroke="white"/>
+</g>
+<g><title>pthread_mutex_init: 850 instructions</title><rect x="1379.7081" y="89" width="0.0059" height="43" fill="hsl(44,85%,73%)" stroke="white"/>
+</g>
+<g><title>system::rawAlloc(var&lt;system::MemRegion&gt;, int): 823 instructions</title><rect x="1379.7140" y="89" width="0.0057" height="43" fill="hsl(12,85%,58%)" stroke="white"/>
+</g>
+<g><title>0x00000000000147c0: 816 instructions</title><rect x="1379.7198" y="89" width="0.0057" height="43" fill="hsl(16,85%,63%)" stroke="white"/>
+</g>
+<g><title>__tunable_get_val: 815 instructions</title><rect x="1379.7255" y="89" width="0.0057" height="43" fill="hsl(20,85%,68%)" stroke="white"/>
+</g>
+<g><title>pthread_mutex_lock: 731 instructions</title><rect x="1379.7311" y="89" width="0.0051" height="43" fill="hsl(24,85%,73%)" stroke="white"/>
+</g>
+<g><title>nsuformatBiggestFloat: 718 instructions</title><rect x="1379.7362" y="89" width="0.0050" height="43" fill="hsl(28,85%,58%)" stroke="white"/>
+</g>
+<g><title>0x000000000001de30: 705 instructions</title><rect x="1379.7412" y="89" width="0.0049" height="43" fill="hsl(32,85%,63%)" stroke="white"/>
+</g>
+<g><title>0x0000000000053470: 702 instructions</title><rect x="1379.7461" y="89" width="0.0049" height="43" fill="hsl(36,85%,68%)" stroke="white"/>
+</g>
+<g><title>0x000000000000c2a0: 659 instructions</title><rect x="1379.7510" y="89" width="0.0046" height="43" fill="hsl(40,85%,73%)" stroke="white"/>
+</g>
+<g><title>0x00000000000076e0: 651 instructions</title><rect x="1379.7556" y="89" width="0.0045" height="43" fill="hsl(44,85%,58%)" stroke="white"/>
+</g>
+<g><title>0x000000000005a230: 597 instructions</title><rect x="1379.7601" y="89" width="0.0042" height="43" fill="hsl(12,85%,63%)" stroke="white"/>
+</g>
+<g><title>0x000000000001be40: 567 instructions</title><rect x="1379.7643" y="89" width="0.0039" height="43" fill="hsl(16,85%,68%)" stroke="white"/>
+</g>
+<g><title>0x0000000000025d60: 562 instructions</title><rect x="1379.7683" y="89" width="0.0039" height="43" fill="hsl(20,85%,73%)" stroke="white"/>
+</g>
+<g><title>0x000000000001a800: 543 instructions</title><rect x="1379.7722" y="89" width="0.0038" height="43" fill="hsl(24,85%,58%)" stroke="white"/>
+</g>
+<g><title>pthread_mutex_unlock: 528 instructions</title><rect x="1379.7759" y="89" width="0.0037" height="43" fill="hsl(28,85%,63%)" stroke="white"/>
+</g>
+<g><title>roadmap::main: 516 instructions</title><rect x="1379.7796" y="89" width="0.0036" height="43" fill="hsl(32,85%,68%)" stroke="white"/>
+</g>
+<g><title>0x0000000000016170: 504 instructions</title><rect x="1379.7832" y="89" width="0.0035" height="43" fill="hsl(36,85%,73%)" stroke="white"/>
+</g>
+<g><title>0x0000000000024520: 501 instructions</title><rect x="1379.7867" y="89" width="0.0035" height="43" fill="hsl(40,85%,58%)" stroke="white"/>
+</g>
+<g><title>0x0000000000025b80: 491 instructions</title><rect x="1379.7902" y="89" width="0.0034" height="43" fill="hsl(44,85%,63%)" stroke="white"/>
+</g>
+<g><title>__libc_sigaction: 480 instructions</title><rect x="1379.7936" y="89" width="0.0033" height="43" fill="hsl(12,85%,68%)" stroke="white"/>
+</g>
+<g><title>0x00000000000093a0: 480 instructions</title><rect x="1379.7970" y="89" width="0.0033" height="43" fill="hsl(16,85%,73%)" stroke="white"/>
+</g>
+<g><title>0x0000000000023bb0: 464 instructions</title><rect x="1379.8003" y="89" width="0.0032" height="43" fill="hsl(20,85%,58%)" stroke="white"/>
+</g>
+<g><title>0x000000000000bc70: 456 instructions</title><rect x="1379.8036" y="89" width="0.0032" height="43" fill="hsl(24,85%,63%)" stroke="white"/>
+</g>
+<g><title>0x0000000000054000: 452 instructions</title><rect x="1379.8067" y="89" width="0.0031" height="43" fill="hsl(28,85%,68%)" stroke="white"/>
+</g>
+<g><title>0x0000000000006660: 452 instructions</title><rect x="1379.8099" y="89" width="0.0031" height="43" fill="hsl(32,85%,73%)" stroke="white"/>
+</g>
+<g><title>other measured functions: 26,847 instructions</title><rect x="1379.8130" y="89" width="0.1870" height="43" fill="hsl(36,85%,58%)" stroke="white"/>
+</g>
+<rect x="20" y="134" width="1360" height="35" fill="#e8b27a"/><text x="30" y="157">all collected function self-cost: 195,278,644 instructions</text><text x="20" y="191">See functions.csv / summary.json and callgraph.svg for named costs and measured edges.</text></svg>

@@ -1,3 +1,6 @@
+> Historical planning record. The later tensor roadmap request supersedes its
+> scope/order/approval status; current implementation evidence is in [docs/ROADMAP.md](docs/ROADMAP.md).
+
 # Proposed Rust → Nim capability mapping
 
 Reference: Rust version 0.2.0 at `d3aba2cf6a068b5c0df68aac49f15ec03bb4fee1`.
