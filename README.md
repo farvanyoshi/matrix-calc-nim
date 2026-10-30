@@ -6,6 +6,10 @@ strided n-dimensional tensors and real numerical linear algebra. Tested with Nim
 includes that version; the older compiler is not locally verified in this run.
 Production code uses the standard library plus a small included C SIMD helper.
 
+The companion [Rust implementation](https://github.com/farvanyoshi/matrix-calc-rust)
+provides similar functionality. See [roadmap coverage](docs/ROADMAP.md) and
+[verification results and limitations](VALIDATION.md) for this version.
+
 ## Library usage
 
 ```nim
