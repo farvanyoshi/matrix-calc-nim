@@ -1,5 +1,13 @@
 # matrix_calc
 
+**DISCLAIMER**: While this project started off as entirely written by me
+(the base matrix library was my own work) as a copy of my Rust library to
+test out Nim, it has been heavily revamped and extended with AI. This project
+became another test for vibe coding; namely, its accuracy at converting code
+from one language to another. So, all the tensors and linear algebra (along with
+all the documentation) is entirely vibe-coded, while my own code lives on in the
+basic matrix, vector, and primitive operation implementations.
+
 A Nim library and interactive calculator for dense matrices, specialized vectors,
 strided n-dimensional tensors and real numerical linear algebra. Tested with Nim
 2.2.12, the C backend, ARC and ORC. The manifest retains the 2.0.8 minimum and CI
